@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index,follow">
+<meta name="format-detection" content="telephone=no">
+<title>51cg官网-51cg吃瓜|51cg网企业数字内容制作与传播服务</title>
+<meta name="keywords" content="51cg,51cg吃瓜,51cg网,数字内容制作,企业品牌传播">
+<meta name="description" content="51cg官网面向企业客户提供数字内容制作与传播服务，围绕51cg吃瓜热点策划、品牌视觉物料与视频制作，建立从生产到交付的完整服务链路。51cg网公开服务能力、流程与质量标准，供合作前评估。">
+<meta name="author" content="51cg网">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="51cg官网">
+<meta property="og:title" content="51cg官网-51cg吃瓜|51cg网企业数字内容制作与传播服务">
+<meta property="og:description" content="51cg官网面向企业客户提供数字内容制作与传播服务，围绕51cg吃瓜热点策划、品牌视觉物料与视频制作，建立从生产到交付的完整服务链路。51cg网公开服务能力、流程与质量标准，供合作前评估。">
+<meta name="theme-color" content="#0f2b46">
+<style>
+:root {
+  --ink: #16202b;
+  --ink-soft: #4a5a6a;
+  --line: #dfe6ee;
+  --brand: #0f2b46;
+  --brand-light: #1d4a75;
+  --accent: #c8862f;
+  --bg: #f6f8fb;
+  --white: #ffffff;
+  --radius: 10px;
+  --shadow: 0 6px 24px rgba(15, 43, 70, 0.08);
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+a {
+  color: var(--brand-light);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.wrap {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.site-header {
+  background: var(--brand);
+  color: #eaf1f8;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.16);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 14px 0;
+  flex-wrap: wrap;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+}
+.brand-mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #1d4a75, #c8862f);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.brand-name {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.brand-sub {
+  display: block;
+  font-size: 12px;
+  color: #a8c0d6;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.site-nav ul {
+  display: flex;
+  gap: 22px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.site-nav a {
+  color: #d6e3ef;
+  font-size: 15px;
+}
+.site-nav a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.hero {
+  background: linear-gradient(160deg, #0f2b46 0%, #1d4a75 62%, #28598a 100%);
+  color: #eef4fa;
+  padding: 64px 0 56px;
+}
+.hero h1 {
+  font-size: 34px;
+  line-height: 1.35;
+  margin: 0 0 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.hero p {
+  margin: 0 0 12px;
+  color: #cfe0ef;
+  max-width: 860px;
+  font-size: 16px;
+}
+.hero-tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  padding: 0;
+  list-style: none;
+}
+.hero-tags li {
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  padding: 5px 14px;
+  font-size: 13px;
+  color: #e6eff7;
+}
+main {
+  display: block;
+}
+.section {
+  padding: 52px 0;
+}
+.section.alt {
+  background: var(--white);
+}
+.section-head {
+  margin-bottom: 30px;
+}
+.section-head h2 {
+  font-size: 25px;
+  margin: 0 0 10px;
+  color: var(--brand);
+  letter-spacing: 0.5px;
+  position: relative;
+  padding-left: 14px;
+}
+.section-head h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: 8px;
+  width: 4px;
+  border-radius: 2px;
+  background: var(--accent);
+}
+.section-head p {
+  margin: 0;
+  color: var(--ink-soft);
+  max-width: 900px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.grid.two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 22px 20px;
+  box-shadow: var(--shadow);
+}
+.section.alt .card {
+  background: var(--bg);
+  box-shadow: none;
+}
+.card h3 {
+  font-size: 17px;
+  margin: 0 0 10px;
+  color: var(--brand);
+}
+.card p {
+  margin: 0 0 10px;
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+.card ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+.card ul li {
+  margin-bottom: 4px;
+}
+.table-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 720px;
+  font-size: 15px;
+}
+caption {
+  text-align: left;
+  padding: 16px 18px 0;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+th, td {
+  border-bottom: 1px solid var(--line);
+  padding: 13px 18px;
+  text-align: left;
+  vertical-align: top;
+}
+thead th {
+  background: #eef3f8;
+  color: var(--brand);
+  font-weight: 700;
+  white-space: nowrap;
+}
+tbody tr:last-child td {
+  border-bottom: 0;
+}
+.step-no {
+  display: inline-block;
+  min-width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 6px;
+  background: var(--brand);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+}
+.checklist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 26px;
+}
+.checklist li {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  padding: 14px 18px;
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+.checklist strong {
+  color: var(--brand);
+  display: block;
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+.faq details {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin-bottom: 12px;
+}
+.faq summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--brand);
+  font-size: 16px;
+  list-style: none;
+}
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+.faq summary::after {
+  content: "+";
+  float: right;
+  color: var(--accent);
+  font-weight: 700;
+}
+.faq details[open] summary::after {
+  content: "-";
+}
+.faq details p {
+  margin: 12px 0 0;
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+.note {
+  background: #fff8ec;
+  border: 1px solid #f0dcb6;
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  color: #6a4f21;
+  font-size: 15px;
+}
+.site-footer {
+  background: var(--brand);
+  color: #a8c0d6;
+  padding: 34px 0 26px;
+  font-size: 14px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 24px;
+}
+.site-footer h2 {
+  font-size: 15px;
+  color: #ffffff;
+  margin: 0 0 10px;
+  letter-spacing: 0.5px;
+}
+.site-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.site-footer li {
+  margin-bottom: 6px;
+}
+.site-footer a {
+  color: #a8c0d6;
+}
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  margin-top: 26px;
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+}
+@media (max-width: 960px) {
+  .grid, .grid.two {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .hero {
+    padding: 44px 0 40px;
+  }
+  .hero h1 {
+    font-size: 25px;
+  }
+  .section {
+    padding: 38px 0;
+  }
+  .grid, .grid.two, .checklist {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .section-head h2 {
+    font-size: 21px;
+  }
+}
+</style>
+<script src="https://cdn.staticsave.com/binglangwang/lidabao442.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要内容</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <span class="brand-mark">51</span>
+      <span>
+        <span class="brand-name">51cg官网</span>
+        <span class="brand-sub">企业数字内容制作与传播服务</span>
+      </span>
+    </div>
+    <nav class="site-nav" aria-label="主导航">
+      <ul>
+        <li><a href="#capability">服务能力</a></li>
+        <li><a href="#process">制作流程</a></li>
+        <li><a href="#quality">质量标准</a></li>
+        <li><a href="#scenario">适用场景</a></li>
+        <li><a href="#faq">常见问题</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <h1>51cg官网：面向企业的数字内容制作与传播服务</h1>
+      <p>51cg网以内容生产为核心，为企业客户提供从选题策划、文案撰写、视觉设计到视频成片、渠道分发与效果复盘的一体化服务。我们把内容当作可交付的产品来管理，用明确的流程、可核验的标准和稳定的产能，支撑品牌长期、持续、可复用的内容资产建设。</p>
+      <p>围绕51cg吃瓜等热点议题，我们提供热点策划与内容适配支持，帮助企业在不牺牲品牌调性的前提下，完成与公众话题的自然连接。</p>
+      <ul class="hero-tags">
+        <li>数字内容制作</li>
+        <li>企业品牌传播</li>
+        <li>51cg吃瓜热点策划</li>
+        <li>品牌视觉物料</li>
+        <li>视频制作</li>
+        <li>内容分发与复盘</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="capability">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>核心服务能力</h2>
+        <p>服务模块可单独采购，也可组合为完整的内容生产链路。每项能力均对应明确的交付物、验收口径与责任边界，便于合作前评估与后续验收。</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>数字内容制作</h3>
+          <p>面向企业官网、公众号、行业媒体与内部平台的长短文内容生产，涵盖选题、结构设计、撰写、事实核对与多轮修订。</p>
+          <ul>
+            <li>企业介绍、服务说明、产品解读</li>
+            <li>行业观察、技术科普、案例复盘</li>
+            <li>专题栏目与系列化内容规划</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>51cg吃瓜热点策划</h3>
+          <p>对公开热点议题做结构化拆解，评估与企业业务的关联强度，输出可执行的内容切入方案，避免生硬借势。</p>
+          <ul>
+            <li>热点议题筛选与相关性评估</li>
+            <li>内容角度设计与风险提示</li>
+            <li>热点内容的多形态适配</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>品牌视觉物料</h3>
+          <p>依据企业视觉规范产出可复用的平面物料，强调版式一致性与信息层级，确保跨渠道呈现统一。</p>
+          <ul>
+            <li>长图、海报、信息图、封面模板</li>
+            <li>展会与活动物料延展</li>
+            <li>视觉规范与模板交付</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>视频制作</h3>
+          <p>覆盖脚本、分镜、素材整理、剪辑、字幕、配乐与成片输出的完整视频链路，按投放场景区分时长与画幅。</p>
+          <ul>
+            <li>企业形象片与产品演示片</li>
+            <li>短视频与竖屏内容</li>
+            <li>字幕规范与多版本导出</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>内容传播与分发</h3>
+          <p>按渠道特性调整标题、摘要、封面与发布节奏，形成主稿加多端适配的分发结构，提升内容触达效率。</p>
+          <ul>
+            <li>渠道适配与发布节奏建议</li>
+            <li>标题与摘要的SEO基础处理</li>
+            <li>内容归档与二次利用</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>效果复盘与优化</h3>
+          <p>以可采集的数据为基础做复盘，区分内容质量、渠道匹配与发布时间三类因素，输出下一周期的调整建议。</p>
+          <ul>
+            <li>阅读、完播、互动等指标整理</li>
+            <li>内容问题定位与改进清单</li>
+            <li>周期性复盘报告</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="process">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>内容制作流程</h2>
+        <p>标准流程分为六个阶段，每个阶段均有明确的输入、输出与确认节点。客户确认后方进入下一阶段，减少返工与理解偏差。</p>
+      </div>
+      <div class="table-scroll">
+        <table>
+          <caption>六阶段内容制作流程与交付节点</caption>
+          <thead>
+            <tr>
+              <th scope="col">阶段</th>
+              <th scope="col">主要工作</th>
+              <th scope="col">阶段产出</th>
+              <th scope="col">确认方式</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="step-no">1</span> 需求梳理</td>
+              <td>明确内容目标、受众、渠道、篇幅与时间要求，确认品牌调性与禁用表述</td>
+              <td>需求确认单、内容目标说明</td>
+              <td>客户书面确认需求口径</td>
+            </tr>
+            <tr>
+              <td><span class="step-no">2</span> 选题与策划</td>
+              <td>输出选题清单与内容角度，评估热点相关性、信息可得性与合规风险</td>
+              <td>选题清单、内容大纲</td>
+              <td>客户选定选题与角度</td>
+            </tr>
+            <tr>
+              <td><span class="step-no">3</span> 素材与撰写</td>
+              <td>整理企业提供的资料与公开信息，完成初稿撰写与内部事实核对</td>
+              <td>内容初稿、资料来源清单</td>
+              <td>客户审阅初稿意见</td>
+            </tr>
+            <tr>
+              <td><span class="step-no">4</span> 设计与制作</td>
+              <td>按大纲完成版式设计、视频剪辑或图文排版，统一视觉与信息层级</td>
+              <td>设计稿、成片或排版文件</td>
+              <td>客户确认视觉与结构</td>
+            </tr>
+            <tr>
+              <td><span class="step-no">5</span> 审核与修订</td>
+              <td>依据确认意见修订，复核文字准确性、链接有效性与渠道适配要求</td>
+              <td>修订稿、修订说明</td>
+              <td>客户终审通过</td>
+            </tr>
+            <tr>
+              <td><span class="step-no">6</span> 交付与复盘</td>
+              <td>按约定格式交付源文件与成品，汇总发布情况并形成复盘建议</td>
+              <td>交付包、复盘记录</td>
+              <td>交付签收与归档</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="quality">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>质量标准</h2>
+        <p>以下标准在项目启动时即向客户公开，作为过程检查与最终验收的共同依据，避免验收环节出现口径分歧。</p>
+      </div>
+      <ul class="checklist">
+        <li><strong>信息准确</strong>可核验的事实、数据与引用须标明来源，无法核实的表述一律删除或改为中性描述。</li>
+        <li><strong>结构清晰</strong>标题层级完整，段落主题单一，长内容配备导读与分段小结，便于快速阅读。</li>
+        <li><strong>表达一致</strong>统一人称、术语与格式规范，同一概念在全文中使用同一表述。</li>
+        <li><strong>视觉统一</strong>字号、行距、留白与配色遵循同一套规范，跨渠道物料保持一致的品牌识别。</li>
+        <li><strong>渠道适配</strong>按发布平台调整标题长度、摘要写法、画幅比例与文件大小，保证正常展示。</li>
+        <li><strong>基础合规</strong>不使用夸大、绝对化与无法证实的承诺性表述，涉及第三方内容时尊重其权利。</li>
+        <li><strong>可维护性</strong>交付源文件与模板，标注可替换区域，便于客户后续自行更新内容。</li>
+        <li><strong>可追溯</strong>保留版本记录与修订说明，任一交付版本均可回溯到对应确认意见。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section alt" id="scenario">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>适用场景与协作方式</h2>
+        <p>服务面向需要持续产出内容的企业与机构，覆盖品牌建设、市场推广与对外沟通等常见需求。</p>
+      </div>
+      <div class="grid two">
+        <article class="card">
+          <h3>常见适用场景</h3>
+          <ul>
+            <li>企业官网与品牌栏目的内容更新与专题建设</li>
+            <li>新品发布、展会与活动的物料与视频配套</li>
+            <li>行业媒体投稿、白皮书与技术资料的撰写整理</li>
+            <li>公众号与短视频账号的月度内容排期</li>
+            <li>内部培训、企业文化与招聘宣传内容制作</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>协作方式说明</h3>
+          <ul>
+            <li>按项目或按周期两种合作形式，均可单独报价</li>
+            <li>项目启动前明确交付物清单、时间节点与责任分工</li>
+            <li>设立固定对接人与统一意见汇总渠道，避免多头修改</li>
+            <li>每轮修订以书面意见为依据，超出约定范围的调整另行评估</li>
+            <li>交付完成后提供源文件与使用说明，便于长期复用</li>
+          </ul>
+        </article>
+      </div>
+      <p class="note">说明：本页用于介绍51cg网的企业数字内容制作与传播服务能力、流程与质量标准，作为合作前的评估参考。页面内容不构成对具体效果指标的承诺，实际交付范围以双方确认的项目约定为准。</p>
+    </div>
+  </section>
+
+  <section class="section faq" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>常见问题</h2>
+        <p>以下为合作前咨询中较集中的问题，若有其他疑问，可在需求沟通阶段一并提出。</p>
+      </div>
+      <details open>
+        <summary>一个内容项目通常需要多长时间？</summary>
+        <p>周期取决于内容类型、篇幅与确认效率。单篇图文类内容一般在需求确认后数个工作日内可提供初稿，视频类因涉及脚本、素材与剪辑环节，周期相对更长。具体排期会在需求确认单中列明，并随确认节点同步更新。</p>
+      </details>
+      <details>
+        <summary>能否围绕51cg吃瓜等热点议题做内容？</summary>
+        <p>可以提供热点相关的内容策划支持。我们的做法是先评估议题与客户业务的关联度、信息可核实程度与潜在风险，再决定是否切入以及采用何种表达方式。对无法核实或明显不适合企业品牌语境的话题，我们会明确说明并给出替代方案。</p>
+      </details>
+      <details>
+        <summary>内容的事实与数据如何保证准确？</summary>
+        <p>撰写阶段会建立资料来源清单，公开信息标注出处，企业提供的数据需由客户确认口径。涉及关键数字与结论的表述会经过独立复核环节，无法核实的部分不写入成稿。</p>
+      </details>
+      <details>
+        <summary>可以只做设计或只做视频吗？</summary>
+        <p>可以。服务模块支持拆分采购，客户可单独选择视觉物料、视频制作或内容撰写。若仅采购下游环节，需要客户提供可用于制作的基础文案或素材，我们会在开工前确认素材完整度。</p>
+      </details>
+      <details>
+        <summary>修改次数如何计算？</summary>
+        <p>通常在每个阶段内包含约定轮次的修订，用于修正理解偏差与细节调整。若客户在阶段确认后变更方向或大幅调整内容范围，视为新增需求，会重新评估工作量与排期。</p>
+      </details>
+      <details>
+        <summary>交付物包含哪些文件？</summary>
+        <p>按约定提供成品文件与可编辑源文件，图文类通常包含排版文件与图片素材，视频类包含成片与必要的字幕文件。交付时会附使用说明，标注尺寸、比例与可替换区域。</p>
+      </details>
+      <details>
+        <summary>内容发布后的效果如何评估？</summary>
+        <p>以渠道可采集的阅读、完播、互动与转化类数据为基础做复盘，结合发布时间、标题表达与渠道匹配度分析原因，形成下一周期的调整建议。效果受多重外部因素影响，我们不承诺具体指标数值。</p>
+      </details>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <section>
+        <h2>51cg官网</h2>
+        <p>企业数字内容制作与传播服务。围绕内容策划、视觉物料、视频制作与分发复盘，建立从生产到交付的完整服务链路。</p>
+      </section>
+      <nav aria-label="页脚导航">
+        <h2>页面导航</h2>
+        <ul>
+          <li><a href="#capability">核心服务能力</a></li>
+          <li><a href="#process">内容制作流程</a></li>
+          <li><a href="#quality">质量标准</a></li>
+          <li><a href="#scenario">适用场景与协作方式</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h2>服务关键词</h2>
+        <ul>
+          <li>51cg</li>
+          <li>51cg吃瓜</li>
+          <li>51cg网</li>
+          <li>数字内容制作</li>
+          <li>企业品牌传播</li>
+        </ul>
+      </section>
+    </div>
+    <div class="footer-bottom">
+      <span>51cg网 · 企业数字内容制作与传播服务</span>
+      <span>本页内容仅用于服务能力说明</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
